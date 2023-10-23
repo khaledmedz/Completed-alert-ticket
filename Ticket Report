@@ -1,0 +1,31 @@
+# Ticket Report - A-2703
+
+**Alert Details:**
+- **Ticket ID:** A-2703
+- **Alert Message:** SERVER-MAIL
+- **Severity:** Medium
+- **Details:** Possible phishing attempt and malware download by a user.
+
+**Ticket Status:**
+- **Status:** Escalated
+
+**Ticket Comments:**
+- An alert was triggered when an employee downloaded and opened a suspicious file from an email.
+- **Suspicious Indicators:**
+  - Sender's email address: "76tguyhh6tgftrt7tg.su."
+  - Inconsistency between sender's name in the email body ("Clyde West") and the sender's name ("Def Communications").
+  - Grammatical errors in the email body and subject line.
+  - Email contained a password-protected attachment, "bfsvc.exe," which was opened.
+  - **Severity:** Medium
+- **Action:** The ticket was escalated to a level-two SOC analyst for further investigation.
+
+**Additional Information:**
+- **Known Malicious File Hash:** `54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b`
+- **Email Details:**
+    - **From:** Def Communications `<76tguyhh6tgftrt7tg.su>` `<114.114.114.114>`
+    - **Sent:** Wednesday, July 20, 2022, 09:30:14 AM
+    - **To:** `<hr@inergy.com>` `<176.157.125.93>`
+    - **Subject:** Re: Infrastructure Engineer role
+    - **Message:** The email expresses interest in a job role and includes a password-protected attachment with the password "paradise10789."
+
+This report highlights the key details of Ticket A-2703, emphasizing the suspicious indicators and the action taken to escalate the ticket.
